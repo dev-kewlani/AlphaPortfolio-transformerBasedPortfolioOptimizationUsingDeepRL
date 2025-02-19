@@ -29,17 +29,12 @@ alpha-portfolio/
 ├── LICENSE
 ├── .gitignore
 ├── requirements.txt
-├── config/
-│   └── config.yaml
 ├── src/
-│   ├── __init__.py
 │   ├── imports.py
 │   ├── data_pipeline.py
 │   ├── model_architecture.py
 │   ├── training_model.py
 │   └── plotting_functions_for_convergence.py
-├── notebooks/
-│   └── examples.ipynb
 ├── tests/
 │   └── __init__.py
 ├── logs/
@@ -65,8 +60,8 @@ alpha-portfolio/
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/alpha-portfolio.git
-cd alpha-portfolio
+git clone https://github.com/yourusername/AlphaPortfolio-transformerBasedPortfolioOptimizationUsingDeepRL.git
+cd AlphaPortfolio-transformerBasedPortfolioOptimizationUsingDeepRL
 ```
 
 2. Create and activate a virtual environment:
@@ -88,8 +83,8 @@ export WRDS_PASSWORD=your_password
 
 ## Usage
 
-1. Configure your parameters in `config/config.yaml`:
-```yaml
+1. Configure your parameters in **main.py** file:
+```bash
 training:
   lookback: 12
   start_year: 2017
@@ -107,9 +102,9 @@ model:
   G: 10
 ```
 
-2. Run the training script:
+2. Run the script:
 ```bash
-python src/training_model.py
+python src/main.py
 ```
 
 ## Data Pipeline
