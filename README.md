@@ -29,18 +29,12 @@ alpha-portfolio/
 ├── LICENSE
 ├── .gitignore
 ├── requirements.txt
-├── src/
-│   ├── imports.py
-│   ├── data_pipeline.py
-│   ├── model_architecture.py
-│   ├── training_model.py
-│   └── plotting_functions_for_convergence.py
-├── tests/
-│   └── __init__.py
-├── logs/
-│   └── .gitkeep
-└── plots/
-    └── .gitkeep
+├── imports.py
+├── data_pipeline.py
+├── model_architecture.py
+├── training_model.py
+└── plotting_functions_for_convergence.py
+└── main.py
 ```
 
 ### File Descriptions
@@ -104,7 +98,7 @@ model:
 
 2. Run the script:
 ```bash
-python src/main.py
+python main.py
 ```
 
 ## Data Pipeline
