@@ -1,0 +1,11 @@
+# Basic .gitignore
+__pycache__/
+*.py[cod]
+*.log
+*.csv
+*.h5
+*.pth
+plots/
+data/
+.env
+.DS_Store
