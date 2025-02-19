@@ -1,11 +1,43 @@
-# Basic .gitignore
+# Python
 __pycache__/
 *.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Project specific
 *.log
-*.csv
-*.h5
-*.pth
-plots/
-data/
 .env
 .DS_Store
+plots/*
+!plots/.gitkeep
+logs/*
+!logs/.gitkeep
+
+# WRDS credentials
+.wrds
