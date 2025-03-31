@@ -188,7 +188,7 @@ Both evaluation methods provide comprehensive performance metrics and visualizat
    ```
 
 5. Prepare your data:
-   - Place your financial data CSV in the `Results/` directory as `training_data.csv` (I have uploaded sample cleaned data from 1975-2000)
+   - Place your financial data CSV in the `Results/` directory as `training_data.csv` (I have uploaded my entire cleaned data from 1975-2024)
    - Ensure your data has columns for asset identifiers (permno), date, and features
 
 ## Usage
